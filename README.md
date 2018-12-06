@@ -10,6 +10,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+Run `npm run build:ssr` to generate build of SSR. It will generate browser and server build. It will also create `prerender.js` and `server.js`, these files will be used run the SSR build. For further command details check `package.json`. 
+
 ## SSR - Server Side Rendering
 
 Run `npm run ssr` to build and run application with Angular Universal functionality. Navigate to `http://localhost:4000/` for to test SSR. You can check page source, there will be generated HTML code for that page.
